@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
-    --primary-color: purple;
+    --primary-color: #77bbc4;
 }
 
 body {
@@ -34,5 +34,44 @@ body {
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color );
 }
+
+/* lists */
+
+.non-bullet {
+    list-style: none;
+}
+
+.item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
