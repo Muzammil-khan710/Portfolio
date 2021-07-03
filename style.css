@@ -8,7 +8,9 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
+
 
 /* container */
 .container {
@@ -82,6 +84,7 @@ body {
 
 .hero {
     padding: 2rem;
+    text-align: center;
 }
 
 .hero .hero-img {
@@ -113,4 +116,22 @@ body {
 
 .ow {
     background-color: var(--light-gray);
+}
+
+/* footer */
+
+.footer { 
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
