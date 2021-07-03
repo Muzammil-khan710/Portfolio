@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #77bbc4;
-    --dark-gray: #4b5563
+    --primary-color: rgb(119, 187, 196);
+    --dark-gray: #4b5563;
+    --light-gray: #e5e7eb;
 }
 
 body {
@@ -97,4 +98,19 @@ body {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1  {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--light-gray);
 }
