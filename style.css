@@ -9,6 +9,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0px;
+    display: block;
 }
 
 
@@ -118,7 +119,6 @@ body {
 
 .section h1  {
     text-align: center;
-    
 }
 
 .ow {
