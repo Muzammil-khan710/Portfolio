@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
-    --primary-color: rgb(0, 98, 179);
+    --primary-color:#1b4d89;
     --dark-gray: #4b5563;
     --light-gray: #e5e7eb;
 }
@@ -10,6 +10,7 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0px;
     display: block;
+    background-color: #c8d8e4;
 }
 
 
@@ -135,16 +136,8 @@ body {
     border-top-right-radius: 1rem
 }
 
-.footer .link {
-    color: white;
-}
 
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
-
-.footer ul {
-    padding-inline-start: 0px;
-}
-
