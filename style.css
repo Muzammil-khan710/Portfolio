@@ -141,3 +141,7 @@ body {
     font-weight: bold;
     font-size: large;
 }
+
+.image {
+    height: 30px;
+}
