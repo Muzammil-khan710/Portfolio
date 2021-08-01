@@ -71,10 +71,10 @@ body {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-
+/* 
 .navigation .nav-brand {
     font-weight: bold;
-}
+} */
 
 .navigation .nav-pills {
     text-align: right;
