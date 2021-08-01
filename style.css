@@ -126,6 +126,9 @@ body {
     background-color: var(--light-gray);
 }
 
+.button-elements {
+    text-align: center;
+}
 /* footer */
 
 .footer { 
@@ -133,7 +136,7 @@ body {
     padding: 2rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem
+    border-top-right-radius: 1rem 
 }
 
 
