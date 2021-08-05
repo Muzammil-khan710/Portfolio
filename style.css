@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#0e0845;
+    --primary-color:#2b2564c0;
     --dark-blue: #1e1092;
-    --light-gray: #a59cf4;
+    --light-gray: #cac8dd;
 }
 
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0px;
     display: block;
-    background-color: #c1bbf7
 }
 
 
@@ -21,7 +20,6 @@ body {
 }
 
 
-/* container */
 .container {
     padding-left: 1rem ;
     padding-right: 1rem;
@@ -32,7 +30,7 @@ body {
     margin: auto;
 }
 
-/* links */
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -50,7 +48,7 @@ body {
     border: 1px solid var(--primary-color );
 }
 
-/* lists */
+
 
 .non-bullet {
     list-style: none;
@@ -63,18 +61,13 @@ body {
 
 
 
-/* navigation */
-
 .navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-/* 
-.navigation .nav-brand {
-    font-weight: bold;
-} */
+
 
 .navigation .nav-pills {
     text-align: right;
@@ -89,7 +82,6 @@ body {
 }
 
 
-/* header */
 
 .hero {
     padding: 2rem;
@@ -112,7 +104,6 @@ body {
     color: var(--primary-color);
 }
 
-/* section */
 
 .section {
     padding: 2rem;
@@ -129,14 +120,14 @@ body {
 .button-elements {
     text-align: center;
 }
-/* footer */
+
 
 .footer { 
     background-color: var(--primary-color);
     padding: 2rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem 
+    border-top-right-radius: 1rem;
 }
 
 
